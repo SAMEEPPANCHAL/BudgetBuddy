@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		203197BC2C36550900312B3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 203197BB2C36550900312B3A /* GoogleService-Info.plist */; };
+		20B08B332C1D4CAB005EC40F /* Exp_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B08B322C1D4CAB005EC40F /* Exp_VC.swift */; };
 		20F563562C194C180034711F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F563552C194C180034711F /* AppDelegate.swift */; };
 		20F563582C194C180034711F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F563572C194C180034711F /* SceneDelegate.swift */; };
 		20F5635A2C194C180034711F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F563592C194C180034711F /* ViewController.swift */; };
-		20F5635D2C194C180034711F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F5635B2C194C180034711F /* Main.storyboard */; };
-		20F5635F2C194C1B0034711F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F5635E2C194C1B0034711F /* Assets.xcassets */; };
+		20F5635D2C194C180034711F /* Report.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F5635B2C194C180034711F /* Report.storyboard */; };
 		20F563622C194C1B0034711F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F563602C194C1B0034711F /* LaunchScreen.storyboard */; };
+		8B74A40A52A0AB2D7A65B360 /* Pods_BudgetBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26933ED6D43C5935CB93C55 /* Pods_BudgetBuddy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		203197BB2C36550900312B3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		20B08B322C1D4CAB005EC40F /* Exp_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exp_VC.swift; sourceTree = "<group>"; };
 		20F563522C194C180034711F /* BudgetBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F563552C194C180034711F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20F563572C194C180034711F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		20F563592C194C180034711F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		20F5635C2C194C180034711F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		20F5635E2C194C1B0034711F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20F5635C2C194C180034711F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Report.storyboard; sourceTree = "<group>"; };
 		20F563612C194C1B0034711F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20F563632C194C1B0034711F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56BF84BE7FE56D3DE887983B /* Pods-BudgetBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetBuddy.release.xcconfig"; path = "Target Support Files/Pods-BudgetBuddy/Pods-BudgetBuddy.release.xcconfig"; sourceTree = "<group>"; };
+		A26933ED6D43C5935CB93C55 /* Pods_BudgetBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BudgetBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C637D556D4262207024E1188 /* Pods-BudgetBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetBuddy.debug.xcconfig"; path = "Target Support Files/Pods-BudgetBuddy/Pods-BudgetBuddy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B74A40A52A0AB2D7A65B360 /* Pods_BudgetBuddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				20F563542C194C180034711F /* BudgetBuddy */,
 				20F563532C194C180034711F /* Products */,
+				49153343E2D5DCA95F30F222 /* Pods */,
+				BCF48F8393F2699A68B45754 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +68,30 @@
 				20F563552C194C180034711F /* AppDelegate.swift */,
 				20F563572C194C180034711F /* SceneDelegate.swift */,
 				20F563592C194C180034711F /* ViewController.swift */,
-				20F5635B2C194C180034711F /* Main.storyboard */,
-				20F5635E2C194C1B0034711F /* Assets.xcassets */,
+				20F5635B2C194C180034711F /* Report.storyboard */,
 				20F563602C194C1B0034711F /* LaunchScreen.storyboard */,
 				20F563632C194C1B0034711F /* Info.plist */,
+				203197BB2C36550900312B3A /* GoogleService-Info.plist */,
+				20B08B322C1D4CAB005EC40F /* Exp_VC.swift */,
 			);
 			path = BudgetBuddy;
+			sourceTree = "<group>";
+		};
+		49153343E2D5DCA95F30F222 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C637D556D4262207024E1188 /* Pods-BudgetBuddy.debug.xcconfig */,
+				56BF84BE7FE56D3DE887983B /* Pods-BudgetBuddy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BCF48F8393F2699A68B45754 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A26933ED6D43C5935CB93C55 /* Pods_BudgetBuddy.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20F563662C194C1B0034711F /* Build configuration list for PBXNativeTarget "BudgetBuddy" */;
 			buildPhases = (
+				E38E407DC623EBA4BAFD7E0D /* [CP] Check Pods Manifest.lock */,
 				20F5634E2C194C180034711F /* Sources */,
 				20F5634F2C194C180034711F /* Frameworks */,
 				20F563502C194C180034711F /* Resources */,
+				665BC66FEB23745C388CFB7F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,18 +155,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				20F563622C194C1B0034711F /* LaunchScreen.storyboard in Resources */,
-				20F5635F2C194C1B0034711F /* Assets.xcassets in Resources */,
-				20F5635D2C194C180034711F /* Main.storyboard in Resources */,
+				20F5635D2C194C180034711F /* Report.storyboard in Resources */,
+				203197BC2C36550900312B3A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		665BC66FEB23745C388CFB7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BudgetBuddy/Pods-BudgetBuddy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BudgetBuddy/Pods-BudgetBuddy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BudgetBuddy/Pods-BudgetBuddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E38E407DC623EBA4BAFD7E0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BudgetBuddy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20F5634E2C194C180034711F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B08B332C1D4CAB005EC40F /* Exp_VC.swift in Sources */,
 				20F5635A2C194C180034711F /* ViewController.swift in Sources */,
 				20F563562C194C180034711F /* AppDelegate.swift in Sources */,
 				20F563582C194C180034711F /* SceneDelegate.swift in Sources */,
@@ -147,12 +219,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		20F5635B2C194C180034711F /* Main.storyboard */ = {
+		20F5635B2C194C180034711F /* Report.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				20F5635C2C194C180034711F /* Base */,
 			);
-			name = Main.storyboard;
+			name = Report.storyboard;
 			sourceTree = "<group>";
 		};
 		20F563602C194C1B0034711F /* LaunchScreen.storyboard */ = {
@@ -282,6 +354,7 @@
 		};
 		20F563672C194C1B0034711F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C637D556D4262207024E1188 /* Pods-BudgetBuddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,7 +364,7 @@
 				INFOPLIST_FILE = BudgetBuddy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Report;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +382,7 @@
 		};
 		20F563682C194C1B0034711F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56BF84BE7FE56D3DE887983B /* Pods-BudgetBuddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,7 +392,7 @@
 				INFOPLIST_FILE = BudgetBuddy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Report;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
